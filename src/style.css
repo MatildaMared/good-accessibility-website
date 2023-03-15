@@ -9,7 +9,7 @@
 
 	--color-accent-primary: hsl(224, 73%, 55%);
 	--color-accent-primary-light: hsl(224, 73%, 98%);
-	--color-accent-secondary: hsl(170, 45%, 53%);
+	--color-accent-secondary: hsl(170, 55%, 32%);
 
 	--color-gray: hsl(0, 0%, 60%);
 	--color-gray-light: hsl(0, 0%, 75%);
@@ -234,7 +234,7 @@ body {
 
 .early-access {
 	background-color: var(--color-primary);
-	color: var(--color-primary-lightest);
+	color: var(--color-background);
 	padding: 96px 64px;
 }
 
