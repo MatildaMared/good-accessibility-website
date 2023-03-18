@@ -69,7 +69,7 @@
 					/>
 
 					<div class="stay-productive-content">
-						<h1 class="heading">Stay productive, wherever you are</h1>
+						<h2 class="heading">Stay productive, wherever you are</h2>
 						<div>
 							Never let location be an issue when accessing your files. Fylo has
 							you covered for all of your file storage needs.
@@ -80,16 +80,13 @@
 							colleagues for live collaboration. No email attachments required!
 						</div>
 
-						<div
-							class="link"
-							onclick="alert('This should redirect the user to some kind of demo')"
-						>
+						<a href="/demo.html" class="link">
 							<div>See how Fylo works</div>
 							<img
 								src="public/images/icon-arrow.svg"
 								alt="Right facing arrow icon"
 							/>
-						</div>
+						</a>
 
 						<div class="card">
 							<img
@@ -132,15 +129,15 @@
 					</div>
 				</div>
 
-				<div class="early-access-form">
-					<input type="text" />
-					<div
-						class="button"
-						onclick="alert('This button sends the user an email about how to get started')"
-					>
-						Get Started For Free
-					</div>
-				</div>
+				<form class="early-access-form">
+					<label for="get-started-email">Enter your e-mail</label>
+					<input
+						type="email"
+						id="get-started-email"
+						placeholder="name@example.com"
+					/>
+					<input type="submit" class="button" value="Get Started For Free" />
+				</form>
 			</div>
 		</section>
 
