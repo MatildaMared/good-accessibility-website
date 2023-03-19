@@ -47,10 +47,18 @@
 						them wherever you need, share and collaborate with friends, family,
 						and co-workers.
 					</div>
-					<div class="get-started-form">
-						<input type="text" />
-						<h3 class="button">Get Started</h3>
-					</div>
+					<form class="get-started-form">
+						<div>
+							<label for="get-started-email">E-mail</label>
+							<input
+								type="email"
+								id="get-started-email"
+								name="email"
+								placeholder="name@example.com"
+							/>
+						</div>
+						<input type="submit" class="button" value="Get Started" />
+					</form>
 				</div>
 			</div>
 		</section>
@@ -130,11 +138,12 @@
 				</div>
 
 				<form class="early-access-form">
-					<label for="get-started-email">Enter your e-mail</label>
+					<label for="early-access-email">Enter your e-mail</label>
 					<input
 						type="email"
-						id="get-started-email"
+						id="early-access-email"
 						placeholder="name@example.com"
+						name="email"
 					/>
 					<input type="submit" class="button" value="Get Started For Free" />
 				</form>
