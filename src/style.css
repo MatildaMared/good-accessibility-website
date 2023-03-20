@@ -116,9 +116,10 @@ body {
 
 .get-started-form {
 	display: flex;
-	align-items: center;
+	align-items: flex-end;
 	gap: 16px;
 	width: 100%;
+	margin-top: 16px;
 }
 
 .get-started-form input[type="email"] {
@@ -253,6 +254,17 @@ body {
 	flex-direction: column;
 	gap: 16px;
 	align-self: flex-end;
+	min-width: 300px;
+}
+
+.form-control {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.form-control label {
+	font-size: 14px;
 }
 
 .early-access input {
